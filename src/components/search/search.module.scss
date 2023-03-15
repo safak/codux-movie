@@ -1,0 +1,26 @@
+.root {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(126, 121, 121);
+  border-radius: 15px;
+  margin: 0px 0px 35px;
+  overflow: hidden;
+}
+.inputcls {
+  width: 50%;
+  background-color: transparent;
+  border:none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(126, 121, 121);
+}
+.btncls {
+  width: 100px;
+  background-color: rgb(219, 55, 58);
+  color: #ffffff;
+  font-weight: 500;
+  padding: 15px;
+  border: 0px solid black;
+}

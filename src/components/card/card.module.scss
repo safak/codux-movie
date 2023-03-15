@@ -1,0 +1,72 @@
+.root {
+  width: 250px;
+  height: 350px;
+  border: 0px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1a171eb4;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  &:hover {
+    opacity: 1;
+  }
+  opacity: 0;
+  color: white;
+}
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addButton {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(219, 55, 58);
+  color: #c5afaf;
+  font-weight: 400;
+  font-size: 30px;
+  align-items: center;
+  border: 0px solid black;
+  cursor: pointer;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+}
+.desc {
+  font-weight: 300;
+}
+.top {
+  height: 25%;
+  padding: 10px;
+}
+.bottom {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.rating {
+  font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.root {
+  flex: 1;
+  background-color: #1a171e;
+  padding: 50px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #777;
+  height: 100vh;
+  overflow: scroll;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clear {
+  color: rgb(198, 97, 79);
+  cursor: pointer;
+}

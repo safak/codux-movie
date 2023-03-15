@@ -1,0 +1,61 @@
+.root {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #1a171e;
+}
+.logo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logoImg {
+  height: 50px;
+  width: 50px;
+}
+.logoText {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(219, 55, 58);
+}
+.queryTitle {
+  font-size: 16px;
+  color: #777;
+  font-weight: 300;
+  text-align: start;
+}
+.hr {
+  height: 0px;
+  border: 0.5px solid rgba(241, 241, 241, 0.179);
+  width: 100%;
+}
+.menuList {
+  list-style-type: none;
+  font-size: 18px;
+  text-align: start;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.listItem {
+  color: #aa9797;
+  cursor: pointer;
+}
+
+.menuButton {
+  padding: 10px;
+  background-color: rgb(219, 55, 58);
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 400;
+  opacity: 0.9;
+  border: none;
+}
+.active {
+  color: rgb(219, 55, 58);
+}
